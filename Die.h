@@ -13,7 +13,7 @@ private:
 	const int SIDES;
 public:
 	Die();
-	Die(int sides);
+	Die(int sides);// Exit Ticket 7/12/24
 	void roll();
 	int getFaceValue();
 	int getSides();

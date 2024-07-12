@@ -12,6 +12,7 @@ Attribute::Attribute() {
 	baseScore = die1.getFaceValue() + die2.getFaceValue() + die3.getFaceValue();
 	currentScore = baseScore;
 }
+//Exit Ticket 7/12/24
 Attribute::Attribute(string n) {
 	name = n;
 	Die die1, die2, die3;
@@ -19,6 +20,7 @@ Attribute::Attribute(string n) {
 	currentScore = baseScore;
 
 }
+//Exit Ticket 7/12/24
 Attribute::Attribute(string n, int value) {
 	name = n;
 	baseScore = value;

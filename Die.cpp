@@ -10,10 +10,12 @@ Die::Die() :  //colon has to go here
 	roll();
 }
 
+//Exit Ticket 7/12/24
 Die::Die(int sides) :
 	SIDES(sides) {
 	roll();
 }
+
 int Die::getSides() {
 	return SIDES;
 }
