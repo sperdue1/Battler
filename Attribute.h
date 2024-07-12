@@ -14,6 +14,8 @@ private:
 	int currentScore;
 public:
 	Attribute();
+	Attribute(string name);
+	Attribute(string name, int value);
 	string getName();
 	void setName(string n);
 	int getScore();

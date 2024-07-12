@@ -12,6 +12,19 @@ Attribute::Attribute() {
 	baseScore = die1.getFaceValue() + die2.getFaceValue() + die3.getFaceValue();
 	currentScore = baseScore;
 }
+Attribute::Attribute(string n) {
+	name = n;
+	Die die1, die2, die3;
+	baseScore = die1.getFaceValue() + die2.getFaceValue() + die3.getFaceValue();
+	currentScore = baseScore;
+
+}
+Attribute::Attribute(string n, int value) {
+	name = n;
+	baseScore = value;
+	currentScore = baseScore;
+
+}
 string Attribute::getName() {
 	return name;
 }
@@ -29,5 +42,4 @@ int Attribute::getModifier() {
 }
 void Attribute::resetCurrentScore() {
 	currentScore = baseScore;
-
 }
