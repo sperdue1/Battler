@@ -14,8 +14,8 @@ private:
 	int currentScore;
 public:
 	Attribute();
-	Attribute(string name);
-	Attribute(string name, int value);
+	Attribute(string name);//Exit Ticket 7/12/24
+	Attribute(string name, int value);//Exit Ticket 7/12/24
 	string getName();
 	void setName(string n);
 	int getScore();
